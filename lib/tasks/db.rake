@@ -1,6 +1,5 @@
 namespace :db do
   task seed: :environment do
-    Player.calculate_average_position_age_difference
     sports = %w[baseball football basketball]
     sports.each do |sport|
       player_data(sport).each do |player|
