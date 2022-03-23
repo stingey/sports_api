@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Seed the database with api data with rails db:seed
+example endpoints:
+http://localhost:3000/players/1
+http://localhost:3000/players?sport=basketball&first_letter_last_name=s&age=29&age_range=20-30&position=SG
